@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(255, 228, 196);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.background2 {
+  background-color: rgb(46, 33, 21);
 }
 
 .App-link {
@@ -43,4 +47,98 @@
   padding: 0 2rem;
   position: relative;
   width: 100%;
+}
+
+.container-left {
+  max-width: 54%;
+  width: 100%;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f12 {
+  font-size: 13px;
+}
+
+.f22 {
+  font-size: 22px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  width: 620px;
+  height: 300px;
+  margin: 3px;
+  background-color: rgb(14, 129, 133);
+}
+
+.button-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+a.button:hover {
+  background-color: rgb(147, 253, 145);
+  opacity: 1;
+}
+
+a.button {
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.1, rgb(161, 248, 158)),
+  color-stop(0.5, rgb(92, 255, 86))
+  );
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  opacity: 0.8;
+  transition: 0.3s;
+  padding: 9px 60px 10px 60px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(92, 255, 86);
+  text-decoration: none;
+  color: initial;
+}
+
+.left {
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+}
+
+.top {
+  padding: 70px 0 0 0;
+}
+
+.bot {
+  padding: 0 0 70px 0;
+}
+
+.margin{
+  margin: 0 17%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
